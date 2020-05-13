@@ -1,9 +1,47 @@
 *
 {
+    margin: 0;
+    padding: 0;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 body
 {
-    background-image: linear-gradient(to right, #aad, #99f);
+    background-image: linear-gradient(to right, #8dd, #99f);
+    background-repeat: no-repeat;
+}
+
+.clear
+{
+    clear: both;
+}
+
+#partners #logos
+{
+    display: flex;
+}
+
+#ceo img
+{
+    border-radius: 20px;
+}
+
+#about h2
+{
+    color: #99f;
+}
+
+#questions h2
+{
+    color: #dad;
+}
+
+#partners h2
+{
+    color: #fed;
+}
+
+#ceo h2
+{
+    color: #9ff;
 }
